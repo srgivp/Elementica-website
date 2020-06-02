@@ -1,0 +1,315 @@
+@media only screen and (max-width: 768px) {
+  header,
+  section {
+    margin: 5% 3% 0 3%;
+    width: 100%;
+    padding-top: 5%;
+  }
+  html {
+    border-right: solid 1px rgb(43, 182, 115);
+    border-left: solid 1px rgb(43, 182, 115);
+  }
+  .details,
+  .service-description,
+  .proxima-nova {
+    font-size: 1rem;
+  }
+  .button {
+    display: block;
+    text-align: center;
+  }
+  .button p {
+    margin: auto;
+    padding: 5% 3%;
+    width: fit-content;
+    font-size: 0.7rem;
+  }
+  .button img {
+    display: none;
+    /*margin-right: 3%;
+    margin-left: 0;
+    width: fit-content;*/
+  }
+  .section-title {
+    text-align: center;
+    font-family: "CarosMedium";
+    font-weight: normal;
+    font-size: 1.5rem;
+  }
+  .section-description {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  #nav {
+    display: none;
+  }
+  #nav-gadgets {
+    display: flex;
+    justify-content: flex-end;
+  }
+  #top-navigation nav {
+    margin-right: 1%;
+    width: 85%;
+  }
+  #top-navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #top-navigation img {
+    margin-left: 3%;
+  }
+  #top-navigation nav a {
+    font-size: 0.5rem;
+  }
+  #company {
+    display: none;
+  }
+  #company-gadgets {
+    display: flex;
+    margin-top: 0;
+  }
+  #big-logo-container {
+    width: 30%;
+    margin-top: 0;
+    float: left;
+  }
+  #header-text {
+    margin-top: 7%;
+    width: 100%;
+  }
+  #header-text-only {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #we-turn {
+    font-size: 1.15rem;
+  }
+  #elementica-provides {
+    margin: 3% 0 0 0;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  #header-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+  }
+  #explore,
+  #talk-to {
+    position: static;
+    justify-content: center;
+    width: 37%;
+    border: solid 0.5px rgb(43, 182, 115);
+    color: rgb(43, 182, 115);
+  }
+  #services {
+    display: none;
+  }
+
+  #services-gadgets {
+    display: block;
+  }
+  .service-name,
+  .service-description {
+    width: 100%;
+  }
+
+  .service-description {
+    text-align: justify;
+  }
+  #get-know {
+    width: fit-content;
+  }
+  #case-studies .caros-bold {
+    font-size: 0.45rem;
+  }
+  #case-studies .caros-extra-bold {
+    font-size: 1rem;
+    margin: 3%;
+  }
+  #case-studies .caros-light {
+    font-size: 0.7rem;
+    margin-bottom: 3%;
+  }
+  #go-to-tab,
+  #left-page,
+  #right-page {
+    width: 17%;
+  }
+  #go-to-tab {
+    z-index: 1;
+    left: 183%;
+  }
+  #go-to-tab img,
+  #left-page img,
+  #right-page img {
+    width: 35%;
+  }
+  #expertise-container {
+    margin: 0 3% 0 3%;
+  }
+  #expertise-text {
+    width: 100%;
+  }
+  #expertise-items {
+    padding: 5.7% 0 0 0;
+    width: 100%;
+  }
+  .expertise-image img {
+    width: 30%;
+  }
+  #expertise .caros-bold {
+    text-align: center;
+    font-size: 1.1rem;
+    white-space: normal;
+    margin-bottom: 3%;
+  }
+  #expertise-description {
+    text-align: justify;
+  }
+
+  #see-works {
+    width: fit-content;
+    margin: 7% auto 0 auto;
+  }
+  #promo-text p {
+    font-size: 0.75rem;
+  }
+  #some-quote {
+    width: 80%;
+    top: 5%;
+    left: 3%;
+  }
+  #some-quote p {
+    font-size: 0.6rem;
+  }
+  #john-dee {
+    bottom: 3%;
+    right: 3%;
+    color: #fff;
+  }
+  #quoters-name {
+    font-size: 0.6rem;
+  }
+  #quoters-position {
+    font-size: 0.5rem;
+  }
+  #story-one,
+  #story-two {
+    width: 100%;
+    margin-top: 5%;
+  }
+  #story-one {
+    margin-bottom: 7%;
+  }
+  #story-one .proxima-nova,
+  #story-two .proxima-nova {
+    text-align: justify;
+  }
+  #contacts-picture {
+    display: none;
+  }
+  #form-container {
+    width: 100%;
+    position: relative;
+  }
+  #form-container:after {
+    content: " ";
+    background: url(../pictures/photo-in-logo-12_2-81_6-27_9-6_6.png) center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    background-size: contain;
+  }
+  #form-header {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  .checkbox-container {
+    width: fit-content;
+    margin-right: 5%;
+  }
+  #submit-container {
+    width: 37%;
+    margin: 5% auto;
+  }
+  #submit-container img {
+    display: none;
+  }
+  #submit-container input {
+    font-size: 0.7rem;
+    font-family: CarosBold;
+    margin: 5% 3% 5% 3%;
+  }
+  #footer-logo {
+    display: none;
+  }
+  #footer-logo-gadgets {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: space-around;
+    margin: 3% 3% 0 3%;
+    width: 100%;
+    font-family: Caros;
+    line-height: 1.5;
+  }
+  #footer-image {
+    width: 47%;
+  }
+  #footer-logo-gadgets img {
+    width: 50%;
+    background-color: rgb(49, 50, 67);
+  }
+  #footer-nav {
+    display: none;
+  }
+  #footer-nav-gadgets {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 3%;
+    width: 100%;
+    justify-content: space-around;
+    font-family: Caros;
+    line-height: 1.5;
+  }
+  .footer-nav-column {
+    width: 23.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .footer-nav-column p {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+  }
+  .footer-nav-column ul .hide-list {
+    font-style: italic;
+    font-size: 1rem;
+    color: cyan;
+  }
+  .footer-nav-column ul {
+    display: none;
+    text-align: center;
+  }
+  #copyright {
+    width: 34%;
+    padding: 0 2% 0 1%;
+    font-size: 0.5rem;
+    justify-content: flex-start;
+  }
+  #options {
+    width: 65%;
+    margin-right: 1%;
+  }
+}
