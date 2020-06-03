@@ -64,7 +64,8 @@ section {
 #left-page:hover,
 #right-page:hover,
 #play:hover,
-#go-to-tab:hover {
+#go-to-tab:hover,
+#submit-container:hover {
   background-color: rgb(237, 232, 238);
 }
 .section-title {
@@ -578,7 +579,12 @@ form input::placeholder {
   width: 55%;
 }
 #phone,
-#company-name {
+#company-name{
+  display: none;
+}
+#phone,
+#company-name, #phone-label,
+#company-name-label {
   width: 40%;
 }
 #project {
