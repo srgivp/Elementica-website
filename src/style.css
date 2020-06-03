@@ -5,23 +5,23 @@
 }
 @font-face {
   font-family: "CarosMedium";
-  src: url(../fonts/CarosMedium.otf) format("opentype");
+  src: url(./fonts/CarosMedium.otf) format("opentype");
 }
 @font-face {
   font-family: "Caros";
-  src: url(../fonts/Caros.otf) format("opentype");
+  src: url(./fonts/Caros.otf) format("opentype");
 }
 @font-face {
   font-family: "CarosBold";
-  src: url(../fonts/CarosBold.otf) format("opentype");
+  src: url(./fonts/CarosBold.otf) format("opentype");
 }
 @font-face {
   font-family: "CarosExtraBold";
-  src: url(../fonts/CarosExtraBold.otf) format("opentype");
+  src: url(./fonts/CarosExtraBold.otf) format("opentype");
 }
 @font-face {
   font-family: "CarosLight";
-  src: url(../fonts/CarosLight.otf) format("opentype");
+  src: url(./fonts/CarosLight.otf) format("opentype");
 }
 body {
   display: flex;
@@ -668,7 +668,7 @@ footer {
   width: 50%;
   background-color: rgb(49, 50, 67);
 }
-#footer-nav-gadgets{
+#footer-nav-gadgets {
   display: none;
 }
 #footer-nav {
