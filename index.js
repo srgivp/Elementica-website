@@ -8,6 +8,12 @@ const inputOnClick = e => {
   } else if (event.target.id === "project-label") {
     document.getElementById("project-label").style.display = "none";
     document.getElementById("project").style.display = "flex";
+  } else if (event.target.id === "company-name-label") {
+    document.getElementById("company-name-label").style.display = "none";
+    document.getElementById("company-name").style.display = "flex";
+  } else if (event.target.id === "phone-label") {
+    document.getElementById("phone-label").style.display = "none";
+    document.getElementById("phone").style.display = "flex";
   }
 };
 const submitOnClick = () => {
@@ -17,6 +23,10 @@ const submitOnClick = () => {
   document.getElementById("mail").style.display = "flex";
   document.getElementById("project-label").style.display = "none";
   document.getElementById("project").style.display = "flex";
+  document.getElementById("company-name-label").style.display = "none";
+  document.getElementById("company-name").style.display = "flex";
+  document.getElementById("phone-label").style.display = "none";
+  document.getElementById("phone").style.display = "flex";
 };
 const dropDownOnTitle = e => {
   document.getElementById(event.target.id).style.color = "cyan";
@@ -27,7 +37,7 @@ const hideParent = e => {
   event.currentTarget.style.display = "none";
   event.currentTarget.parentNode.children[0].style.color = "rgb(43, 182, 115)";
 };
-const fontSizeAdjuster = () => {
+/*const fontSizeAdjuster = () => {
   let imgWidth = document.getElementById("nav-logo").offsetWidth;
   let navWidth = document.getElementById("nav-gadgets").offsetWidth;
   let wholeWidth = imgWidth + navWidth;
@@ -47,4 +57,4 @@ const fontSizeAdjuster = () => {
     containerWidth = document.getElementById("top-navigation").offsetWidth;
     console.log(containerWidth);
   }
-};
+};*/
