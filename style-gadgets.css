@@ -1,3 +1,58 @@
+@media only screen and (max-width: 1100px) {
+  #link-to-company-gadgets,
+  #link-to-company-gadgets-footer {
+    display: block;
+  }
+  #link-to-company,
+  #link-to-company-footer {
+    display: none;
+  }
+  #company {
+    display: none;
+  }
+  #company-gadgets {
+    display: flex;
+    margin-top: 0;
+  }
+
+  #big-logo-container {
+    width: 30%;
+    margin-top: 0;
+    float: left;
+  }
+  #header-text {
+    margin-top: 7%;
+    width: 100%;
+  }
+  #header-text-only {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  #we-turn {
+    font-size: 1.5rem;
+  }
+  #elementica-provides {
+    margin: 3% 0 0 0;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  #header-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+  }
+  #explore,
+  #talk-to {
+    position: static;
+    justify-content: center;
+    width: 37%;
+    border: solid 0.5px rgb(43, 182, 115);
+    color: rgb(43, 182, 115);
+  }
+}
 @media only screen and (max-width: 768px) {
   header,
   section {

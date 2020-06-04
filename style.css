@@ -104,7 +104,12 @@ section {
   margin-right: 12%;
   width: 75%;
 }
-
+#link-to-company,
+#link-to-company-footer {
+  display: block;
+}
+#link-to-company-gadgets,
+#link-to-company-gadgets-footer,
 #nav-gadgets {
   display: none;
 }
@@ -579,11 +584,12 @@ form input::placeholder {
   width: 55%;
 }
 #phone,
-#company-name{
+#company-name {
   display: none;
 }
 #phone,
-#company-name, #phone-label,
+#company-name,
+#phone-label,
 #company-name-label {
   width: 40%;
 }
